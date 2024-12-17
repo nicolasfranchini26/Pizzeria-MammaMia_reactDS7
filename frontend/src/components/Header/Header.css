@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../../assets/img/Header.jpg);
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding: 45px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+hr{
+    width: 60%;
+}
+

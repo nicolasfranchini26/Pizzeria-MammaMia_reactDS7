@@ -1,0 +1,53 @@
+.Card{
+display: flex;
+flex-direction: column;
+max-width: 21em;
+border: 1px solid black;
+border-radius: 4px;
+}
+
+hr{
+  min-width:315px;
+}
+
+strong{
+  font-size: 20px;
+}
+
+.ingredients{
+  text-decoration: underline;
+  font-size: 19px;
+}
+
+.btn {
+  margin: 1px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-vermas{
+  background-color:white;
+  border-radius: 4px;
+  color: black;
+  transition: all 400ms ease;
+}
+
+.btn-vermas:hover{
+  /* background-color:  rgb(106, 226, 90); */
+  color: white;
+  transform: translateY(-5%);
+}
+
+.btn-añadir{
+  /* background-color: rgb(47, 51, 61); */
+  border-radius: 4px;
+  color: white;
+  transition: all 400ms ease;
+}
+
+.btn-añadir:hover{
+  /* background-color:  rgb(106, 226, 90); */
+  color: white;
+  transform: translateY(-5%);
+}
